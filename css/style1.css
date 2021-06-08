@@ -27,6 +27,41 @@ font-style: normal;
     font-family: 'Cinzel';
     font-size: 40px;
 }
+p.font-40{
+    font-size: 40px;
+    color: orangered
+}
+span.font-crazy{
+    font width: 900;
+    font-size: 50px; 
+    font-family: 'ZCOOL KuaiLe', cursive;
+   /*llamando un color por su nombre*/
+   color: green 
+}
+p{
+font-size: 3em;
+}
+.color-aqua{
+    color: aqua
+}
+.color-whatsapp{
+    color: rgb(37,211,102);
+}
+.color-navy{
+    color: #000080
+}
+.color-mcdonald{
+    color:rgb(221,59,48)
+}
+.espaciado-letras{
+    letter-spacing: 0.2em;
+}
+.espaciado-palabras{
+    word-spacing: 0.8em;
+}
+.espaciado-lineas{
+    line-height: 2em;
+}
 /* cinzel-600 - latin */
 @font-face {
     font-family: 'Cinzel';
