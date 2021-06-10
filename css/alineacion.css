@@ -1,0 +1,20 @@
+.alineacion-derecha{
+    text-align: right;
+}
+
+.alineacion-centro{
+    text-align: center;
+}
+
+.alineacion-izquierda{
+text-align: left;
+}
+
+.alineacion-justificado{
+    text-align: justify;
+}
+
+
+p{
+    font-size: 1.5em;
+}
