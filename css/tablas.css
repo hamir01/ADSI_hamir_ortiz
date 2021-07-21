@@ -1,0 +1,47 @@
+h1{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    font-size: 0.8em;
+    font-weight: bold;
+    margin: 0 auto;
+}
+td, th{
+    border: 1px solid;
+    padding: 0.6em 2em;
+    text-align: center;
+}
+.descanso{
+    background-color: yellow;
+}
+.matematicas{
+    background-color: rgb(180,198,231)
+}
+.castellano{
+    background-color: darksalmon
+}
+.ingles{
+    background-color: rgb(255, 228, 196)
+}
+.sociales{
+    background-color: aqua;
+}
+.edu-fisica{
+    background-color: royalblue;
+}
+.quimica{
+    background-color: pink;
+}
+.fisica{
+    background-color: greenyellow;
+}
+.etica{
+    background-color: tomato;
+}
+.filosofia{
+    background-color: violet;
+}
+.reflexion{
+    background-color: wheat;
+}
