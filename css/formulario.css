@@ -7,7 +7,7 @@ fieldset{
     display: block;
     background-color: moccasin;
     border: 50px;
-    height: 800px;
+    height: 700px;
     border-radius: 10px;
     border: 2px solid palegoldenrod;
     line-height: 2.5em;
@@ -17,7 +17,7 @@ input{
 
 }
 
-s
+
 label{
     text-align: center;
 }
