@@ -1,0 +1,28 @@
+h1{
+    text-align: center;
+}
+fieldset{
+    width: 25%;
+    margin: 0 auto;
+    display: block;
+    background-color: moccasin;
+    border: 50px;
+    height: 800px;
+    border-radius: 10px;
+    border: 2px solid palegoldenrod;
+    line-height: 2.5em;
+}
+input{
+    line-height: 2em;
+
+}
+
+s
+label{
+    text-align: center;
+}
+div{
+    width: 15%;
+    margin:0 auto;
+    
+}
