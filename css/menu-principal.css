@@ -1,0 +1,31 @@
+ *//*  */*{
+    padding: 0%;
+    margin: 0% */
+    
+     */
+}
+ul{
+    
+    list-style: none;
+    text-align: center;
+    font-size: 1.5em;
+
+}
+a{
+text-decoration: none;
+color: white;
+
+}
+li{
+    display: inline-block;
+    padding: 10px;
+}
+.menu-principal{
+    margin: 3em;
+}
+nav{
+background-color: teal;
+font-family: 'Roboto', sans-serif;;
+}
+
+}
