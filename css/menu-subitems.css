@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+    text-align: center;
+    font-size: 1.2em;
+   
+}
+a{
+    text-decoration: none;
+    color: wheat;
+    display: block;
+}
+li{
+    display: inline-block;
+    padding: 20px;
+    position: relative;
+
+}
+nav{
+    background-color: teal;
+    transition: all 5s;
+}
+.sub-items{
+    display: block;
+    position: absolute;
+}
+li:hover .children{
+    display: block;
+    position: absolute;
+    width: 138px;
+}
+.children{
+    display: block;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    overflow: hidden;
+    border-bottom: 1px solid;
+
+}
+li .children{
+    display: none;
+    position: absolute;
+    top: 101%;
+}
