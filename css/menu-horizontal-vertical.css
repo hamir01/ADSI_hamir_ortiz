@@ -1,0 +1,48 @@
+.menu-h a{
+    color: black;
+    text-decoration: none;
+    float: left;
+    border-right: 1px solid #fb5b04;
+    text-align: center;
+    width: 7,5%;
+    padding: 5px;
+    list-style: none;
+
+}
+.menu-h a:hover{
+background-color: rgb(235, 220, 135);
+}
+.menu-h{
+    overflow: hidden;
+}
+
+/* li{
+    float: left;
+    border: none;
+   border-right: 1px solid #fb5b04;
+   padding: 8px;
+   
+} */
+
+.menu-v{
+    float: left;
+    width: 15%;
+    overflow: hidden;
+}
+.menu-v a{
+    background-color: gray;
+    color: white;
+    text-decoration: none;
+    padding: 6px;
+    display: block;
+    margin-bottom: 3px;
+    border-radius: 5px;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.menu-v a:hover{
+
+}
+
+
