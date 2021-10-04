@@ -99,3 +99,13 @@ body{
     background: rgb(66, 66, 66);
 
 }
+@media   only screen and (max-width: 768px){
+    .main-content{
+        left: ;
+    }
+}
+@media (max-width: 510px){
+    .main-content {
+        left: 15%;
+    }
+}
