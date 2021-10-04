@@ -1,0 +1,127 @@
+.box-style-1{
+    background: skyblue;
+}
+.box-style-2{
+    background: skyblue;
+    height: 500px;
+}
+.box-style-3{
+    background: skyblue;
+    height: 600px;
+
+}
+
+
+.flex-direction-row{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+
+}
+.flex-direction-column{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+
+}
+.flex-wrap{
+    display: flex;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.flex-no-wrap{
+    display: flex;
+    gap: 30px;
+    flex-wrap: nowrap;
+}
+.flex-flow-column-wrap{
+    display: flex;
+    gap: 30px;
+    flex-flow: column wrap;
+    overflow: scroll;
+}
+.flex-flow-column-no-wrap{
+    display: flex;
+    gap: 30px;
+    flex-flow: column nowrap;
+    
+}
+.flex-justify-space-between{
+    display: flex;
+    gap: 30px;
+    justify-content: space-between;
+}
+.flex-justify-space-around{
+    display: flex;
+    gap: 30px;
+    justify-content: space-around;
+}
+.flex-justify-space-evenly{
+    display: flex;
+    gap: 30px;
+    justify-content: space-evenly;
+}
+.flex-justify-flex-start{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-start;
+
+}
+.flex-justify-flex-end{
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+
+}
+.flex-justify-flex-center{
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+
+}
+.align-items-flex-start{
+    
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+
+}
+.align-items-flex-end{
+    
+    display: flex;
+    gap: 30px;
+    align-items: flex-end;
+
+}
+.align-items-flex-center{
+    
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+
+.item-flex{
+    background: teal;
+    width: 300px;
+    height: 300px;
+    color: seashell;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+    
+
+    
+}
+.item-flex-1{
+    width: 300px;
+    height: 400px;
+    background:teal;
+    color: seashell;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.5em;
+}

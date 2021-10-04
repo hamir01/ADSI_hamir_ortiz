@@ -1,0 +1,100 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    background: url(../img/pexels-kamil-5411457.jpg) no-repeat center top;
+    background-size: cover;
+    font-family: sans-serif;
+
+}
+.main-content{
+    width: 320px;
+    height: 420px;
+    background: rgba(255, 255, 255, 0.6);
+    top: 50%;
+    left: 38%;
+    position: relative;
+    box-sizing: border-box;
+    border-radius: 30px;
+    margin-top: 80px;
+
+}
+
+.fa-user-circle{
+    color:black;
+    position: absolute;
+    top: -60px;
+    left: calc(50% - 50px);
+
+}
+
+.main-content h2{
+    padding: 50px 0 25px;
+    text-align: center;
+    font-size: 1.5em;
+    
+
+}
+.main-content input{
+    width: 80%;
+  /*   margin: 5px 10px 10px 20px; */
+  margin-bottom: 40px;
+  
+  
+    
+}
+.main-content input[type="text"],
+.main-content input[type="password"]{
+    border: none;
+    border-bottom: 1px solid black;
+    background: transparent;
+    outline: none;
+    height: 20px;
+    color:black;
+    font-size: 16px;
+    
+    
+}
+.fa-user{
+    color: black;
+    margin-left: 15px;
+    font-size: 25px;
+    
+    
+
+}
+.fa-lock{
+    color: black;
+    margin-left: 15px;
+    font-size: 25px;
+     
+
+}
+.remember-pass{
+    color: black;
+    font-weight: bold;
+    margin-top:10px ;
+    margin-left: 15px;
+
+}
+.remember-pass:hover{
+    color: rgb(59, 57, 57);
+    cursor: pointer;
+}
+.main-content button[type="submit"]{
+    border: none;
+    outline: none;
+    height: 50px;
+    width: 280px;
+    margin-top: 40px;
+    margin-left: 21px;
+    background:dimgrey;
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+.main-content button:hover[type="submit"]{
+    background: rgb(66, 66, 66);
+
+}
