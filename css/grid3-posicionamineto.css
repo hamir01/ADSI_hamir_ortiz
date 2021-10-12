@@ -8,9 +8,9 @@ h1{
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
   /*   grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr; */
     gap: 10px;
-    width: 90%;
+    width: 50%;
     max-width: 1000px;
-    border: 5px solid black;
+  /*   border: 5px solid black; */
     margin: 0 auto;
    /*  text-align: center; */
    /*  box-shadow: 5px 5px 30px rgb(0,0,0,25); */
@@ -30,9 +30,10 @@ h1{
 }
 .contenedor > div{
     display: flex;
- /*    width: 200px;
-    height: 200px; */
+  /*   width: 60px;
+    height: 30px; */
     padding: 10px;
+ /*    padding: 15px; */
     box-shadow: 2px 2px 5px rgb(158, 78, 22);
   /*   color: darkorange; */
     background: cyan;
@@ -41,9 +42,33 @@ h1{
 .contenedor > .nombre-dia{
     background:teal;
     color: white;
+     justify-content: center;
+    align-items: center;
+  
+
 }
 .primer-dia{
     grid-column-start: 4;
     grid-column-end: 5;
 }
+.contenedor > .nombre-mes{
+    grid-column-start: 1;
+    grid-column-end: 8;
+    background: white;
+    color: tomato;
+    font-style: italic;
+    font-size: 1.8em;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor > .dia-13{
+ 
+  background: violet;
+  
+  }
+
+  
+    
+
+
 
