@@ -1,5 +1,4 @@
 function mostrarMenu (){
-    var navMostrar = document.getElemenById("menu-principal");
-    navMostrar.claaList.toggle("mostrarNav");
-
+    var   navMostrar = document.getElementById("menu-principal") 
+    navMostrar.classList.toggle("mostrarNav"); 
 }
