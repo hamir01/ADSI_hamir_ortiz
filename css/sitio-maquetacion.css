@@ -17,7 +17,7 @@
     max-width: 1900px;
     gap: 20px;
     grid-template: "encabezado       nav-bar           nav-bar"          100px 
-                    "img-principal    img-principal    img-principal"    600px
+                    "img-principal    img-principal    img-principal"    590px 
                     "card-1             card-2           card-3 "           auto
                     "card-4             card-5           card-6"            auto /
                       1fr                1fr             1fr;
@@ -44,6 +44,9 @@ li{
     
     
 }
+ul :hover{
+    cursor: pointer;
+}
 
 .encabezado{
     height: 40px;
@@ -56,6 +59,9 @@ li{
     
     
 }
+.encabezado :hover{
+     cursor: pointer;
+}
 .iphone-p{
     color: blanchedalmond;
     
@@ -65,10 +71,10 @@ li{
 }
 section{
     margin-top: -50px;
-    background: coral;
+    background:;
     grid-area: img-principal;
     background: url("../img/iphone-13-2.png");
-    width:100vw;
+    width:100%;
     background-repeat: repeat ;
     background-size: cover;
     background-position: center;
@@ -81,39 +87,55 @@ section{
     }
 .cards{
     display: flex;
-    flex-direction: column ;
-    background: burlywood;
-    margin: 0 60px 0 60px;
-    margin-top: 90px;
+    flex-direction: column;
+    width: 70%;
+    
+}
+
+.borde-abajo{
+    border-bottom: solid 2px;
+    width: 20%;
+    margin-top: 10px;
 }
 .card-1{
 
     grid-area: card-1;
+    margin-left: 27%;
 }
 .card-2{
+    
     grid-area: card-2;
+    margin-left: 14%;
     
 
 }.card-3{
     grid-area: card-3;
+    margin-right: -80%;
     
 }
 .card-4{
+    margin-left: 27%;
     grid-area: card-4;
     
 }
 .card-5{
+    margin-left: 14%;
     grid-area: card-5;
     
 }
 .card-6{
     grid-area: card-6;
   
-    
 }
-.img-card{
-    background: yellowgreen;
-    max-width: 100%;
+p{
+    text-align: left;
+    font-family: 'Public Sans', sans-serif;
+    font-size: .6em;
+    margin-top: 10px;
+}
+h3{
+    font-size: .8em;
+}
 }
 .text-card{
     color: black;
@@ -137,6 +159,7 @@ section{
 @media  (max-width: 600px){
     .main-container{
         width: 90%;
+
      
         grid-template: "encabezado "          100px 
                         "nav-bar"             100px
@@ -147,8 +170,14 @@ section{
                         "card-4 "              auto
                         "card-5"                auto
                         "card-6"                 auto/
-                          1frs  ;
+                          1fr;
                           justify-items: stretch;
-      
+
+     
+
+      }
+      .cards{
+          margin-top: 150px;
+      }
         
     }
