@@ -39,7 +39,7 @@ nav{
     
 }
 .contenido-principal{
-    background-color: gainsboro;
+    background-color: grey;
     grid-area: contenido-principal;
     height: 720px;
    
