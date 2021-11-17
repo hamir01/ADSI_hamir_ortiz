@@ -8,7 +8,6 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/bootstrap-my-style.css">
     <link rel="stylesheet" href="icons/all.css">
-
     <link rel="stylesheet" href="scss/_transitions.scss">
     <link rel="stylesheet" href="css/bootstrap.min.css">
 
@@ -336,7 +335,7 @@
 <div class="container">
   <div class="row">
   <div class="card col-3 card-style" style="width: 18rem;">
-    <img src="img/allbars.png" class="card-img-top" alt="...">
+    <img src="img/xt6001_original.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -344,7 +343,7 @@
     </div>
   </div>
   <div class="card col-3 card-style" style="width: 18rem;">
-    <img src="img/allbars.png" class="card-img-top" alt="...">
+    <img src="img/xt6601_800x453.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -352,7 +351,7 @@
     </div>
   </div>
   <div class="card col-3 card-style" style="width: 18rem;">
-    <img src="img/allbars.png" class="card-img-top" alt="...">
+    <img src="img/xt6604_350x196.jpg" class="card-img-top" alt="...">
     <div class="card-body">
       <h5 class="card-title">Card title</h5>
       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -370,7 +369,7 @@
 </div>
 </div>
 <div class="card col-4 card-style" >
-  <iframe width="560" height="315" src="https://www.youtube.com/watch?v=FVLKKVbOAx4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3Qm0KVC5HPg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   <div class="card-body">
     <h5 class="card-title">Card title</h5>
     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -378,28 +377,23 @@
   </div>
 </div>
 <h2><br> carousel<br></h2>
-<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-indicators">
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-  </div>
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="img/carro1.jpeg" class="d-block w-100" alt="...">
+      <img src="img/carro1.jpeg" class="d-block w-100" alt="..." height="700px" width="100%">
     </div>
     <div class="carousel-item">
-      <img src="img/carro2.jpg" class="d-block w-100" alt="...">
+      <img src="img/carro2.jpg" class="d-block w-100" alt="..." height="700px" width="100%">
     </div>
     <div class="carousel-item">
-      <img src="img/carro3.jpg" class="d-block w-100" alt="...">
+      <img src="img/carro3.jpg" class="d-block w-100" alt="..." height="700px" width="100%">
     </div>
   </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
@@ -434,6 +428,23 @@
 
 </h2>
 <button type="button" class="btn btn-lg btn-danger" data-bs-toggle="popover" title="Popover title" data-bs-content="And here's some amazing content. It's very engaging. Right?">Click to toggle popover</button>
+<div class="container">
+  <nav aria-label="Page navigation example">
+    <ul class="pagination justify-content-center">
+      <li class="page-item disabled">
+        <a class="page-link">Previous</a>
+      </li>
+      <li class="page-item"><a class="page-link" href="https://www.youtube.com/">1</a></li>
+      <li class="page-item"><a class="page-link" href="#">2</a></li>
+      <li class="page-item"><a class="page-link" href="#">3</a></li>
+      <li class="page-item">
+        <a class="page-link" href="#">Next</a>
+      </li>
+    </ul>
+  </nav>
+</div>
+<script src="js/carrusel.js"></script>
+
 <script src="js/validation.js"></script>
 <script src="js/popper.min.js"></script>
 <script src="js/bootstrap.js"></script>
