@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: black;
+}
+.main-container{
+display: grid;
+grid-template: "titulo    imagen-principal" auto;
+}
+
+.img-cinta {
+    width: 220px;
+    height: 250px;
+    cursor: pointer;
+    margin-left: 20px;
+    margin-top: 10px;
+
+}
+
+.box_img_principal{
+
+    display: flex;
+    justify-content: right;
+    width: 100%;
+    grid-area: imagen-principal;
+}
+.img_principal{
+    width: 750px;
+    height: 410px;
+    grid-area: img-cinta;
+}
+.cinta_movies{
+    margin-top: 20px;
+}
+.titulo{
+    
+    display: block;
+    grid-area: titulo;
+    font-size: 2em;
+
+}
+h2{
+    color: white;
+}
+
+.net{
+    color:red;
+}
+
+  
