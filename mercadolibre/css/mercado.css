@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.encabezado {
+    display: grid;
+    width: 100%;
+    height: 60px;
+    background-color: yellow;
+    grid-template: "icono-lineas busqueda icono-busqueda" / 
+                    1fr 7fr 1fr;
+}
+.icono-lineas {
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 1.3em;
+    font-weight: 400;
+    grid-area: icono-barra;
+    cursor: pointer;
+}
+.busqueda {
+  
+    background-color: white;
+    border-radius: 30px;
+    width: 100%;
+    height: 32px;
+    display: block;
+    margin: 15px auto 0 auto;
+    grid-area: busqueda;
+    font-weight: regular;
+
+
+}
+
+input {
+    
+    background-color: white;
+    border-radius: 30px;
+    width: 75%;
+    height: 32px;
+    display: block;
+    margin: 15px auto 0 auto;
+    border: 0;
+    outline: none;
+    padding-left: 20px;
+    font-weight: 700;
+   
+}
+
+
+.contentImg {
+  
+    display: grid;
+    padding: 20px;
+    box-sizing:border-box;
+    border-bottom: 1px solid rgb(48,48,48,.2); 
+     grid-template: "img  descripcion" 25px 
+                    "img precio" 25px 
+                    "img kilometros" 25px
+                    "img  empty" auto /
+                     6fr       8fr;
+}
+.estilo-img {
+ 
+    width: 100%;
+    grid-area: img;
+}
+.precio {
+   
+    font-size: 1.4em;
+    font-weight: 400;
+    grid-area: precio;
+    margin-left: 17px;
+    color: rgba(24,24,24,.9);
+}
+.anyo {
+    font-size: 1em;
+    margin-left: 17px;
+    display: block;
+}
+
+
+.descripcion {
+    display: block;
+    margin-left: 17px;
+    grid-area: descripcion;
+    font-family: sans-serif;
+}
+.kilometraje {
+    padding-top: 10px;
+    grid-area: kilometros;
+    margin-left: 17px;
+    font-size: 0.9em;
+  font-family: sans-serif;
+}
