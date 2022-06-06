@@ -17,7 +17,15 @@
     margin-right: 20px;
     font-size: 1.3em;
     font-weight: 400;
-    grid-area: icono-barra;
+    grid-area: icono-lineas;
+    cursor: pointer;
+}
+.icono-carrito{
+    margin-top: 13px;
+    margin-left: 200px;
+    margin-right: 20px;
+    font-size: 1.6em;
+    font-weight: 400;
     cursor: pointer;
 }
 .busqueda {
