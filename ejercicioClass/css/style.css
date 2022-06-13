@@ -1,0 +1,17 @@
+
+.div-rock{
+    display: block;
+}
+
+
+.div-rock-hidden{
+    display: none;
+}
+
+.div-dualipa{
+    display: none;
+}
+
+.div-dualipa-visible{
+    display: block;
+}
